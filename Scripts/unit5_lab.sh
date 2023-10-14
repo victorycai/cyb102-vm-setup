@@ -49,9 +49,9 @@ fi
 # Paths of the CSV files you want to add to Splunk for index "main" and their associated hostnames.
 declare -A MAIN_DATA
 MAIN_DATA=(
-  ["Files/Splunk-5-6-7/netflix_titles.csv"]="Netflix"
-  ["Files/Splunk-5-6-7/Top Video Game sales.csv"]="SalesData"
-  ["Files/Splunk-5-6-7/webauth.csv"]="WebServer01"
+  ["../Files/Splunk-5-6-7/netflix_titles.csv"]="Netflix" 
+  ["../Files/Splunk-5-6-7/Top Video Game sales.csv"]="SalesData"
+  ["../Files/Splunk-5-6-7/webauth.csv"]="WebServer01"
 )
 
 # Name of the main index you want to add data to.
